@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"/>
+
+    <item android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="BERANDA"
+        />
+    <item android:id="@+id/nav_menu"
+        android:icon="@drawable/ic_menu"
+        android:title="MENU"
+        />
+    <item android:id="@+id/nav_order"
+        android:icon="@drawable/ic_keranjang"
+        android:title="KERANJANG"
+        />
+    <item android:id="@+id/nav_info"
+        android:icon="@drawable/ic_info"
+        android:title="SYARAT &amp; KETENTUAN"
+        />
+    <item android:id="@+id/nav_signout"
+        android:icon="@drawable/ic_signout"
+        android:title="KELUAR"
+        />
+
+
+</menu>

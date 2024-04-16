@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBE9AFD"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|top"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="~ Makanan ~"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="6dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="2"
+                    android:rowCount="3">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="60dp"
+                                android:layout_marginTop="5dp"
+                                android:src="@drawable/indomie" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Indomie"
+                                android:textColor="#000000"
+                                android:textSize="17dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:text="Rp. 10.000,-"
+                                android:textColor="#000000"
+                                android:textSize="12dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/buttonorderfood1"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginBottom="1dp"
+                                android:background="@drawable/buttton_sign_in"
+                                android:text="Tambah "
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                app:backgroundTint="@null" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="60dp"
+                                android:layout_marginTop="5dp"
+                                android:src="@drawable/pancong" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Pancong"
+                                android:textColor="#000000"
+                                android:textSize="17dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:text="Rp. 6.000,-"
+                                android:textColor="#000000"
+                                android:textSize="12dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/buttonorderfood2"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginBottom="1dp"
+                                android:background="@drawable/buttton_sign_in"
+                                android:text="Tambah "
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                app:backgroundTint="@null" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="60dp"
+                                android:layout_marginTop="5dp"
+                                android:src="@drawable/gorengan" />
+
+                                                                                                w
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:text="Rp. 2.000,-"
+                                android:textColor="#000000"
+                                android:textSize="12dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/buttonorderfood3"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginBottom="1dp"
+                                android:background="@drawable/buttton_sign_in"
+                                android:text="Tambah "
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                app:backgroundTint="@null" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="60dp"
+                                android:layout_marginTop="5dp"
+                                android:src="@drawable/nasi_goreng" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Nasi Goreng"
+                                android:textColor="#000000"
+                                android:textSize="17dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:text="Rp. 13.000,-"
+                                android:textColor="#000000"
+                                android:textSize="12dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/buttonorderfood4"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginBottom="1dp"
+                                android:background="@drawable/buttton_sign_in"
+                                android:text="Tambah "
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                app:backgroundTint="@null" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+                </GridLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="~ Minuman ~"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="6dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="2"
+                    android:rowCount="3">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="60dp"
+                                android:layout_marginTop="5dp"
+                                android:src="@drawable/kopi" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Kopi Hitam"
+                                android:textColor="#000000"
+                                android:textSize="17dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:text="Rp. 4.000,-"
+                                android:textColor="#000000"
+                                android:textSize="12dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/buttonorderdrink1"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginBottom="1dp"
+                                android:background="@drawable/buttton_sign_in"
+                                android:text="Tambah "
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                app:backgroundTint="@null" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="60dp"
+                                android:layout_marginTop="5dp"
+                                android:src="@drawable/kopi_susu" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Kopi Susu"
+                                android:textColor="#000000"
+                                android:textSize="17dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:text="Rp. 4.000,-"
+                                android:textColor="#000000"
+                                android:textSize="12dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/buttonorderdrink2"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginBottom="1dp"
+                                android:background="@drawable/buttton_sign_in"
+                                android:text="Tambah "
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                app:backgroundTint="@null" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="60dp"
+                                android:layout_marginTop="5dp"
+                                android:src="@drawable/nutrisari" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Nutrisari"
+                                android:textColor="#000000"
+                                android:textSize="17dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:text="Rp. 5.000,-"
+                                android:textColor="#000000"
+                                android:textSize="12dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/buttonorderdrink3"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginBottom="1dp"
+                                android:background="@drawable/buttton_sign_in"
+                                android:text="Tambah "
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                app:backgroundTint="@null" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="60dp"
+                                android:layout_marginTop="5dp"
+                                android:src="@drawable/soda_susu" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Soda Susu"
+                                android:textColor="#000000"
+                                android:textSize="17dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:text="Rp. 8.000,-"
+                                android:textColor="#000000"
+                                android:textSize="12dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/buttonorderdrink4"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="6dp"
+                                android:layout_marginBottom="1dp"
+                                android:background="@drawable/buttton_sign_in"
+                                android:text="Tambah "
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                app:backgroundTint="@null" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+                </GridLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

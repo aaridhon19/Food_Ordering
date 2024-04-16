@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "464735834779",
+    "project_id": "aplikasipemesanan-be16a",
+    "storage_bucket": "aplikasipemesanan-be16a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464735834779:android:52c06e59a7d6279baa6c3e",
+        "android_client_info": {
+          "package_name": "com.example.aplikasipemesanan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464735834779-egssp2cp4mo7hkomosfgdap6g9busmn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzbOH4BdOmB-tL0076cDDfLk6qGPagqnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464735834779-egssp2cp4mo7hkomosfgdap6g9busmn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

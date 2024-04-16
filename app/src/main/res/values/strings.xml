@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WMA</string>
+    <string name="daftardisini"><u>Daftar disini</u></string>
+    <string name="lupapassword"><u>Lupa Password?</u></string>
+    <string name="tamu"><u>Masuk sebagai Tamu</u></string>
+    <string name="menu_drawer_open">Drawer Open</string>
+    <string name="menu_drawer_close">Drawer Close</string>
+</resources>

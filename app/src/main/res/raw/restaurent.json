@@ -1,0 +1,69 @@
+[
+    {
+      "name":"Menu",
+      "image":"@drawable/logo",
+
+      "menus": [
+        {
+          "name": "Indomie",
+          "price": 7.000,
+          "url": "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2021/01/26/1787911715.png"
+        },
+        {
+          "name": "Nasi Goreng",
+          "price": 13.000,
+          "url": "https://cdns.klimg.com/dream.co.id/resized/640x320/news/2022/07/01/202675/nasi-goreng-tuna-jagung-cara-bikinnya-simpel-banget-2207010.jpg"
+        },
+        {
+          "name": "Pancong",
+          "price": 6.000,
+          "url": "https://awsimages.detik.net.id/community/media/visual/2020/08/12/pancong-rawa-belong-4.jpeg?w=1280"
+        },
+        {
+          "name": "Roti Bakar",
+          "price": 10.000,
+          "url": "https://topwisata.info/wp-content/uploads/2021/06/Roti2BBakar2BBandung2B252812529.jpg"
+        },
+        {
+          "name": "Pisang Bakar",
+          "price": 11.000,
+          "url": "https://img-global.cpcdn.com/recipes/73337d55e99e536a/1200x630cq70/photo.jpg"
+        },
+        {
+          "name": "Gorengan",
+          "price": 1.500,
+          "url": "https://mmc.tirto.id/image/2018/05/23/ilustrasi-gorengan-2--istockphoto.jpg"
+        },
+        {
+          "name": "Kopi Hitam",
+          "price": 4.000,
+          "url": "https://awsimages.detik.net.id/community/media/visual/2022/01/02/manfaat-kopi_169.jpeg?w=1200"
+        },
+        {
+          "name": "Kopi Susu",
+          "price": 4.000,
+          "url": "https://assets-a1.kompasiana.com/items/album/2017/06/17/editkopsus-5944ab4d66afbd3432b13067.png"
+        },
+        {
+          "name": "Nutrisari",
+          "price": 5.000,
+          "url": "https://img-global.cpcdn.com/recipes/806760843959c8ad/751x532cq70/es-nutrisari-yakult-foto-resep-utama.jpg"
+        },
+        {
+          "name": "Teh Manis",
+          "price": 5.000,
+          "url": "https://awsimages.detik.net.id/community/media/visual/2016/05/14/e6bd831a-6b52-403f-81e2-61555f07fb68_169.jpg?w=700&q=90"
+        },
+        {
+          "name": "Teh Tawar ",
+          "price": 2.000,
+          "url": "https://dcostseafood.id/wp-content/uploads/2021/12/Teh-tawar-manis.jpg"
+        },
+        {
+          "name": "Air Mineral",
+          "price": 1.000,
+          "url": "https://www.goodnewsfromindonesia.id/uploads/post/large-shutterstock-657548437-6695baa815408cd8f5d3993e96b192c0.jpg"
+        }
+      ]
+    }
+]
